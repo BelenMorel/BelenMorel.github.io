@@ -152,9 +152,9 @@ h1 {
 }
 
 .imgcaruoselHistoria{
-  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
-  width: 100%;     /* Hace que la imagen ocupe el 100% del ancho del contenedor */
-  height: auto;    /* Permite que la altura se ajuste proporcionalmente al ancho */
+   max-height: 200px; /* Establece la altura máxima */
+  width: auto; /* Permite que el ancho se ajuste automáticamente manteniendo la proporción original */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 .parrafohistoria{
