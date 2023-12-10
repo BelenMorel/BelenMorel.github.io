@@ -1,7 +1,10 @@
 body{
-    padding: 1px;
+  margin: 0;
+  padding: 1;
+  height: 100%;
 
 }
+
 /* Encabezado superior*/
 h1 {
     font-size: 38px;
