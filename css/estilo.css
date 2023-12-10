@@ -137,8 +137,11 @@ h1 {
 }
 
 .imginfo{
-  width: 600px;
-  height: 300px;
+  
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  width: 100%;     /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  height: auto;    /* Permite que la altura se ajuste proporcionalmente al ancho */
+
 }
 
 .parrafohistoria{
